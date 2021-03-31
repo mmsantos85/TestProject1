@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
-		features = {"src\\test\\java\\Boltesting\\feature\\newuser.feature"},
+		features = {"src\\test\\java\\Boltesting\\feature\\registrationform.feature"},
 		glue = {"Boltesting.steps"},
 		monochrome = true,
 		tags = {},
